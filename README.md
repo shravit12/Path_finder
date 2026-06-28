@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 AlgoVision – Path Finding Visualizer
 
-## Getting Started
+AlgoVision is an interactive and educational Path Finding Visualizer that demonstrates how popular graph algorithms work in real time. It allows users to create custom grids, place obstacles, select start and end points, and visually observe how algorithms explore nodes to find the shortest path.
 
-First, run the development server:
+This project is designed to simplify complex data structures and algorithms through intuitive and interactive visualization.
+
+---
+
+## 🚀 Live Demo
+
+👉 https://vercel.com/shravits-projects/path-finder
+
+> ⚠️ Recommended: Deploy on a public Vercel/Netlify URL for sharing with clients and recruiters.
+
+---
+
+## ✨ Features
+
+- 📍 Select **Start and End nodes**
+- 🧱 Create and remove **walls (obstacles)**
+- ⚡ Real-time **pathfinding visualization**
+- 🎬 Smooth step-by-step animation of algorithm execution
+- 🛣️ Clearly highlights the **shortest path**
+- 🔄 Reset grid and re-run multiple simulations
+- 📱 Responsive and clean UI design
+- 🎯 Interactive grid-based system
+
+---
+
+## 🧮 Algorithms Implemented
+
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
+- Dijkstra’s Algorithm
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- HTML5 & CSS3
+
+---
+
+## 📚 What I Learned
+
+This project helped me strengthen my understanding of:
+
+- Graph traversal algorithms in real-world applications
+- React state management and component architecture
+- Step-by-step animation logic
+- Efficient grid data structure handling
+- Building interactive UI/UX experiences
+
+---
+
+## ⚙️ How It Works
+
+1. User selects a **start node** and an **end node**
+2. User creates **obstacles (walls)** on the grid
+3. Selected algorithm begins exploring the grid
+4. Visited nodes are shown in real time through animation
+5. Once the destination is reached, the **shortest path is highlighted**
+
+---
+
+## 📦 Installation & Setup
 
 ```bash
+# Clone repository
+git clone https://github.com/your-username/algovision.git
+
+# Navigate into project folder
+cd algovision
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+👨‍💻 Author
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Shravit
+Web Developer | React & Next.js Enthusiast
 
-## Learn More
+⭐ Support
 
-To learn more about Next.js, take a look at the following resources:
+If you like this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⭐ Star this repository
+🍴 Fork it
+📢 Share it with others
